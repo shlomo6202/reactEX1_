@@ -1,0 +1,185 @@
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+h1{
+    text-align: center;
+    padding: 22px;
+}
+
+#newElements{
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+#simpleForm{
+    display: block;
+    text-align: center;
+    margin: 20px;
+}
+
+#formGrid{
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    gap: 5px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    height: 300px;
+}
+
+#simpleForm #formGrid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 150px 150px 150px;
+    grid-template-columns: 150px 150px 150px;
+    gap: 5px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+    margin-bottom: 10px;
+}
+
+#contentCard{
+    width:135px;
+    margin-left: 50px;
+    float: left;
+}
+
+.card {
+    border: 1px solid;
+    border-radius: 1%;
+    padding: 20px;
+    width: -webkit-fill-available;
+    float: left;
+}
+
+
+div.card{
+    border: 1px solid;
+    border-radius: 1%;
+    padding: 20px;
+    float: left;
+    width: 135px; 
+}
+
+
+img{
+    max-width: -webkit-fill-available;
+}
+
+#main {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 250px 250px 250px;
+    grid-template-columns: 250px 250px 250px;
+    gap: 15px;
+    text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+#btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #668ad8;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    border-radius: 50%;
+    border: double 4px #668ad8;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    transition: .6s;
+  }
+  
+  #btn:hover{
+    -webkit-transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+
+  .button {
+    border: none;
+    color: #fff;
+    background-image: linear-gradient(30deg, #0400ff, #4ce3f7);
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 17px;
+    padding: 0.6em -0.5em;
+    margin-left: 10px;
+   }
+   
+   .button:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+   }
+   
+   @keyframes pulse512 {
+    0% {
+     box-shadow: 0 0 0 0 #05bada66;
+    }
+   
+    70% {
+     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+   
+    100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+   }
+
+                                             /*---pop up style---
+
+   /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
